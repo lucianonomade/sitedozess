@@ -1,0 +1,1507 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+
+  <!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '616035144504375'); 
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=616035144504375&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+<script>
+  window.pixelId = "688bfb9a07cecda456b19bd5";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Checkout - Zé Felipe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Estilos inline para garantir que funcionem no WordPress */
+    :root {
+      /* Paleta de cores moderna e vibrante */
+      --primary-50: #fef7ee;
+      --primary-100: #fdecd3;
+      --primary-200: #fbd5a5;
+      --primary-300: #f8b86d;
+      --primary-400: #f59332;
+      --primary-500: #f2750a;
+      --primary-600: #e35d05;
+      --primary-700: #bc4708;
+      --primary-800: #963a0e;
+      --primary-900: #7a310f;
+      
+      /* Gradientes modernos */
+      --gradient-primary: linear-gradient(135deg, #f2750a 0%, #f59332 50%, #fbd5a5 100%);
+      --gradient-secondary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --gradient-dark: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+      --gradient-glow: linear-gradient(135deg, rgba(242, 117, 10, 0.1) 0%, rgba(245, 147, 50, 0.05) 100%);
+      
+      /* Cores neutras aprimoradas */
+      --gray-50: #fafafa;
+      --gray-100: #f5f5f5;
+      --gray-200: #e5e5e5;
+      --gray-300: #d4d4d4;
+      --gray-400: #a3a3a3;
+      --gray-500: #737373;
+      --gray-600: #525252;
+      --gray-700: #404040;
+      --gray-800: #262626;
+      --gray-900: #171717;
+      
+      /* Sombras modernas */
+      --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      --shadow-glow: 0 0 20px rgba(242, 117, 10, 0.3);
+      
+      /* Bordas arredondadas */
+      --radius-xs: 0.25rem;
+      --radius-sm: 0.375rem;
+      --radius: 0.5rem;
+      --radius-md: 0.75rem;
+      --radius-lg: 1rem;
+      --radius-xl: 1.5rem;
+      --radius-2xl: 2rem;
+      --radius-full: 9999px;
+      
+      /* Transições suaves */
+      --transition-fast: 0.15s ease-in-out;
+      --transition-normal: 0.3s ease-in-out;
+      --transition-slow: 0.5s ease-in-out;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+      color: var(--gray-800);
+      line-height: 1.6;
+      font-weight: 400;
+      overflow-x: hidden;
+    }
+
+    /* Scrollbar personalizada */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--gray-100);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--primary-400);
+      border-radius: var(--radius-full);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--primary-500);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      box-sizing: border-box;
+    }
+
+    /* Header moderno com glassmorphism */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(229, 229, 229, 0.5);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition-normal);
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 4.5rem;
+      padding: 0 1rem;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      transition: var(--transition-normal);
+    }
+
+    .logo:hover {
+      transform: scale(1.05);
+    }
+
+    .logo-image {
+      height: 36px;
+      width: auto;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    }
+
+    /* Main Content com espaçamento melhorado */
+    main {
+      padding: 2rem 0;
+      min-height: calc(100vh - 4.5rem);
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    /* Profile Section com design aprimorado */
+    .profile-section {
+      position: relative;
+      margin-bottom: 4rem;
+    }
+
+    /* Banner com gradiente e efeitos */
+    .banner {
+      position: relative;
+      width: 100%;
+      height: 14rem;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      background: var(--gradient-primary);
+      margin: 0;
+    }
+
+    .banner::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="50" cy="10" r="0.5" fill="rgba(255,255,255,0.05)"/><circle cx="10" cy="60" r="0.5" fill="rgba(255,255,255,0.05)"/><circle cx="90" cy="40" r="0.5" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+      opacity: 0.3;
+    }
+
+    .banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      opacity: 0.8;
+    }
+
+    .banner-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(242, 117, 10, 0.8) 0%, rgba(245, 147, 50, 0.6) 50%, rgba(251, 213, 165, 0.4) 100%);
+    }
+
+    .banner-content {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      right: 2rem;
+      z-index: 10;
+    }
+
+    .banner-content h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: white;
+      text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.025em;
+    }
+
+    .banner-stats {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      font-size: 0.875rem;
+      color: white;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .stat {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: var(--radius-full);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    /* Profile Image com borda animada */
+    .profile-image-container {
+      position: absolute;
+      bottom: -3rem;
+      left: 2rem;
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid white;
+      box-shadow: var(--shadow-xl);
+      z-index: 20;
+      transition: var(--transition-normal);
+    }
+
+    .profile-image-container::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      border-radius: 50%;
+      background: var(--gradient-primary);
+      z-index: -1;
+      animation: rotate 3s linear infinite;
+    }
+
+    .profile-image-container:hover {
+      transform: scale(1.05);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .profile-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    /* Cards com design glassmorphism */
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(20px);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+      margin-bottom: 2rem;
+      overflow: hidden;
+      border: 1px solid rgba(229, 229, 229, 0.5);
+      transition: var(--transition-normal);
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .card-header {
+      padding: 2rem 2rem 1rem;
+      background: var(--gradient-glow);
+    }
+
+    .card-header h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--gray-800);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .card-header h3::before {
+      content: '';
+      width: 4px;
+      height: 24px;
+      background: var(--gradient-primary);
+      border-radius: var(--radius-full);
+    }
+
+    .card-content {
+      padding: 2rem;
+    }
+
+    /* Profile Card aprimorado */
+    .profile-card {
+      padding-top: 1rem;
+      margin-top: 3rem;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .profile-card span {
+      display: block;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--gray-800);
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.025em;
+    }
+
+    .username {
+      font-size: 1rem;
+      color: var(--primary-600);
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    .bio {
+      font-size: 0.875rem;
+      color: var(--gray-600);
+      margin-top: 1rem;
+      line-height: 1.6;
+    }
+
+    /* Botões de assinatura modernos */
+    .subscription-link {
+      display: block;
+      text-decoration: none;
+      margin-bottom: 1rem;
+    }
+
+    .subscription-button {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 4rem;
+      padding: 0 2rem;
+      border-radius: var(--radius-lg);
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition-normal);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .subscription-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: var(--transition-slow);
+    }
+
+    .subscription-button:hover::before {
+      left: 100%;
+    }
+
+    .primary-button {
+      background: var(--gradient-primary);
+      color: white;
+      border: none;
+      box-shadow: var(--shadow-md);
+    }
+
+    .primary-button:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .outline-button {
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px solid var(--primary-200);
+      color: var(--gray-800);
+      backdrop-filter: blur(10px);
+    }
+
+    .outline-button:hover {
+      background: var(--primary-50);
+      border-color: var(--primary-400);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .button-left {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: var(--radius-full);
+      background: var(--gradient-primary);
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .price {
+      font-weight: 800;
+      font-size: 1.125rem;
+    }
+
+    .highlight {
+      color: var(--primary-600);
+      font-weight: 700;
+    }
+
+    /* Animações */
+    @keyframes pulse {
+      0%, 100% {
+        box-shadow: 0 0 0 0 rgba(242, 117, 10, 0.7);
+      }
+      50% {
+        box-shadow: 0 0 0 20px rgba(242, 117, 10, 0);
+      }
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideInRight {
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .pulse {
+      animation: pulse 2s infinite;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 0.6s ease-out;
+    }
+
+    .slide-in-right {
+      animation: slideInRight 0.6s ease-out;
+    }
+
+    /* Promoções com design moderno */
+    .promotions {
+      margin-top: 2rem;
+    }
+
+    .promotions-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      padding: 1rem;
+      background: var(--gradient-glow);
+      border-radius: var(--radius-lg);
+      transition: var(--transition-normal);
+    }
+
+    .promotions-header:hover {
+      background: var(--primary-50);
+    }
+
+    .promotions-header h4 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--gray-800);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .chevron {
+      color: var(--primary-500);
+      transition: transform var(--transition-normal);
+      font-size: 1.125rem;
+    }
+
+    .promotions-header:hover .chevron {
+      transform: rotate(180deg);
+    }
+
+    /* Tabs modernos */
+    .content-tabs {
+      margin-bottom: 2rem;
+    }
+
+    .tabs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+      background: var(--gray-100);
+      padding: 0.25rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .tab {
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.875rem;
+      font-weight: 500;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition-normal);
+      color: var(--gray-600);
+      border-radius: var(--radius-md);
+    }
+
+    .tab.active {
+      background: white;
+      color: var(--primary-600);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .tab:hover:not(.active) {
+      background: rgba(255, 255, 255, 0.5);
+      color: var(--gray-800);
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeInUp 0.4s ease-out;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* Responsividade melhorada */
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 1rem;
+        max-width: 100%;
+      }
+      
+      main {
+        padding: 1rem 0;
+      }
+      
+      .header-container {
+        height: 3.5rem;
+      }
+      
+      .logo-image {
+        height: 28px;
+      }
+      
+      .banner {
+        height: 10rem;
+        border-radius: var(--radius-lg);
+        margin: 0 0.5rem;
+      }
+      
+      .banner-content {
+        top: 1rem;
+        left: 1rem;
+        right: 1rem;
+      }
+      
+      .banner-content h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .banner-stats {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+      
+      .stat {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.75rem;
+      }
+      
+      .profile-image-container {
+        left: 1rem;
+        width: 4rem;
+        height: 4rem;
+        bottom: -2rem;
+        border-width: 3px;
+      }
+      
+      .profile-card {
+        margin-top: 2rem;
+        margin: 0 0.5rem;
+      }
+      
+      .card {
+        margin: 0 0.5rem 1rem;
+        border-radius: var(--radius-lg);
+      }
+      
+      .card-header {
+        padding: 1rem 1rem 0.5rem;
+      }
+      
+      .card-header h3 {
+        font-size: 1.125rem;
+      }
+      
+      .card-content {
+        padding: 1rem;
+      }
+      
+      .subscription-button {
+        height: 3rem;
+        padding: 0 1rem;
+        font-size: 0.875rem;
+      }
+      
+      .button-left {
+        gap: 0.5rem;
+      }
+      
+      .badge {
+        padding: 0.125rem 0.5rem;
+        font-size: 0.625rem;
+      }
+      
+      .price {
+        font-size: 1rem;
+      }
+      
+      .content-tabs {
+        margin: 0 0.5rem 1rem;
+      }
+      
+      .tabs {
+        margin-bottom: 1rem;
+      }
+      
+      .tab {
+        padding: 0.75rem;
+        font-size: 0.75rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 0.5rem;
+      }
+      
+      main {
+        padding: 0.75rem 0;
+      }
+      
+      .banner {
+        height: 8rem;
+        margin: 0 0.25rem;
+      }
+      
+      .banner-content {
+        top: 0.75rem;
+        left: 0.75rem;
+        right: 0.75rem;
+      }
+      
+      .banner-content h2 {
+        font-size: 1.125rem;
+        margin-bottom: 0.25rem;
+      }
+      
+      .banner-stats {
+        gap: 0.25rem;
+      }
+      
+      .stat {
+        padding: 0.125rem 0.375rem;
+        font-size: 0.625rem;
+      }
+      
+      .profile-image-container {
+        left: 0.75rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        bottom: -1.75rem;
+        border-width: 2px;
+      }
+      
+      .profile-card {
+        margin: 0 0.25rem;
+      }
+      
+      .card {
+        margin: 0 0.25rem 0.75rem;
+      }
+      
+      .card-header {
+        padding: 0.75rem 0.75rem 0.25rem;
+      }
+      
+      .card-header h3 {
+        font-size: 1rem;
+      }
+      
+      .card-content {
+        padding: 0.75rem;
+      }
+      
+      .subscription-button {
+        height: 2.75rem;
+        padding: 0 0.75rem;
+        font-size: 0.75rem;
+      }
+      
+      .button-left {
+        gap: 0.375rem;
+      }
+      
+      .badge {
+        padding: 0.125rem 0.375rem;
+        font-size: 0.5rem;
+      }
+      
+      .price {
+        font-size: 0.875rem;
+      }
+      
+      .content-tabs {
+        margin: 0 0.25rem 0.75rem;
+      }
+      
+      .tab {
+        padding: 0.5rem;
+        font-size: 0.625rem;
+      }
+      
+      .profile-card span {
+        font-size: 1rem;
+      }
+      
+      .username {
+        font-size: 0.875rem;
+      }
+      
+      .bio {
+        font-size: 0.75rem;
+      }
+    }
+
+    @media (max-width: 360px) {
+      .container {
+        padding: 0 0.25rem;
+      }
+      
+      .banner {
+        height: 7rem;
+        margin: 0 0.125rem;
+      }
+      
+      .banner-content h2 {
+        font-size: 1rem;
+      }
+      
+      .banner-stats {
+        flex-direction: column;
+        gap: 0.125rem;
+      }
+      
+      .stat {
+        padding: 0.125rem 0.25rem;
+        font-size: 0.5rem;
+      }
+      
+      .profile-image-container {
+        width: 3rem;
+        height: 3rem;
+        bottom: -1.5rem;
+      }
+      
+      .subscription-button {
+        height: 2.5rem;
+        padding: 0 0.5rem;
+        font-size: 0.625rem;
+      }
+      
+      .card-header,
+      .card-content {
+        padding: 0.5rem;
+      }
+    }
+
+    /* Efeitos de loading */
+    .loading {
+      opacity: 0.7;
+      pointer-events: none;
+    }
+
+    .loading::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 20px;
+      height: 20px;
+      margin: -10px 0 0 -10px;
+      border: 2px solid var(--primary-200);
+      border-top: 2px solid var(--primary-500);
+      border-radius: 50%;
+      animation: rotate 1s linear infinite;
+    }
+
+    /* Partículas flutuantes */
+    .floating-particles {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    @media (max-width: 768px) {
+      .floating-particles {
+        display: none;
+      }
+    }
+
+    .particle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: var(--primary-400);
+      border-radius: 50%;
+      opacity: 0.3;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .particle:nth-child(1) {
+      left: 10%;
+      animation-delay: 0s;
+      animation-duration: 8s;
+    }
+
+    .particle:nth-child(2) {
+      left: 20%;
+      animation-delay: 2s;
+      animation-duration: 10s;
+    }
+
+    .particle:nth-child(3) {
+      left: 30%;
+      animation-delay: 4s;
+      animation-duration: 12s;
+    }
+
+    .particle:nth-child(4) {
+      left: 40%;
+      animation-delay: 1s;
+      animation-duration: 9s;
+    }
+
+    .particle:nth-child(5) {
+      left: 50%;
+      animation-delay: 3s;
+      animation-duration: 11s;
+    }
+
+    .particle:nth-child(6) {
+      left: 60%;
+      animation-delay: 5s;
+      animation-duration: 7s;
+    }
+
+    .particle:nth-child(7) {
+      left: 70%;
+      animation-delay: 2s;
+      animation-duration: 13s;
+    }
+
+    .particle:nth-child(8) {
+      left: 80%;
+      animation-delay: 4s;
+      animation-duration: 8s;
+    }
+
+    .particle:nth-child(9) {
+      left: 90%;
+      animation-delay: 1s;
+      animation-duration: 10s;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0;
+      }
+      10% {
+        opacity: 0.3;
+      }
+      90% {
+        opacity: 0.3;
+      }
+      100% {
+        transform: translateY(-100px) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    /* Efeito de brilho nos botões */
+    .glow-effect {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .glow-effect::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+      transform: rotate(45deg);
+      animation: glow 3s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+      0%, 100% {
+        transform: translateX(-100%) translateY(-100%) rotate(45deg);
+      }
+      50% {
+        transform: translateX(100%) translateY(100%) rotate(45deg);
+      }
+    }
+  </style>
+
+  <script>
+  window.pixelId = "6877f1016d0fb5a1f25b71b5";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+  
+  <script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+
+</head>
+<body>
+  <!-- Partículas flutuantes -->
+  <div class="floating-particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <img src="images/logo-privacy.webp" alt="Logo do Privacy" class="logo-image">
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <!-- Seção de Perfil com Banner e Foto -->
+    <div class="profile-section">
+      <!-- Banner -->
+      <div class="banner">
+        <img src="images/caiocastro-capa.webp" alt="Foto de Capa do Caio Castro" class="banner-image">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+          <h2>Zé Felipe</h2>
+          <div class="banner-stats">
+            <div class="stat">
+              <i class="fas fa-users"></i>
+              <span>258</span>
+            </div>
+            <div class="stat">
+              <i class="fas fa-comments"></i>
+              <span>154</span>
+            </div>
+            <div class="stat">
+              <i class="fas fa-heart"></i>
+              <span>282</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Foto de Perfil Sobreposta -->
+      <div class="profile-image-container">
+        <img src="images/caiocastro-perfil.webp" alt="Foto de Perfil do Caio Castro" class="profile-image">
+      </div>
+    </div>
+
+    <!-- Informações do Perfil -->
+    <div class="card profile-card">
+      <div class="card-content">
+        <span>Zé Felipe</span>
+        <p class="username">@zefelipe</p>
+        <p class="bio">
+          Bem-vindo ao meu lado mais íntimo.
+Aqui no meu Privacy, você faz parte de um grupo seleto que tem acesso ao que ninguém mais vê.
+Aqui você vai ver tudo, é real, é cru, é sem cortes. Esse conteúdo não tá em lugar nenhum, só aqui — feito especialmente pra você.
+Aproveita o valor promocional.
+Bora viver essa experiência comigo?  🔥
+        </p>
+      </div>
+    </div>
+
+    <!-- Opções de Assinatura -->
+    <div class="card">
+      <div class="card-header">
+        <h3>Assinaturas</h3>
+      </div>
+      <div class="card-content">
+        <a href="https://pay.sunize.com.br/qlYRYAXD" class="subscription-link">
+          <button class="subscription-button primary-button pulse glow-effect">
+            <div class="button-left">
+              <i class="fas fa-crown"></i>
+              <span>1 mês</span>
+            </div>
+            <span class="price">R$ 19,90</span>
+          </button>
+        </a>
+
+        <div class="promotions">
+          <div class="promotions-header">
+            <h4><i class="fas fa-gift"></i> Promoções</h4>
+            <i class="fas fa-chevron-down chevron"></i>
+          </div>
+
+          <a href="https://pay.sunize.com.br/LfQSVdGh" class="subscription-link">
+            <button class="subscription-button outline-button">
+              <div class="button-left">
+                <i class="fas fa-calendar-alt"></i>
+                <span>3 meses</span>
+                <span class="badge"><i class="fas fa-percentage"></i> Economia</span>
+              </div>
+              <span class="price highlight">R$ 39,90</span>
+            </button>
+          </a>
+
+          <a href="https://pay.sunize.com.br/NMnWXXlG" class="subscription-link">
+            <button class="subscription-button outline-button">
+              <div class="button-left">
+                <i class="fas fa-calendar-check"></i>
+                <span>12 meses</span>
+                <span class="badge"><i class="fas fa-star"></i> Melhor oferta</span>
+              </div>
+              <span class="price highlight">R$ 59,90</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Abas de Conteúdo -->
+    <div class="content-tabs">
+      <div class="tabs">
+        <button class="tab active" data-tab="posts"><i class="fas fa-file-alt"></i> 93 postagens</button>
+        <button class="tab" data-tab="media"><i class="fas fa-photo-video"></i> 412 mídias</button>
+      </div>
+      
+      <!-- Conteúdo da Aba de Postagens -->
+      <div class="tab-content active" id="posts-content">
+        <div class="post-card">
+          <div class="post-header">
+            <div class="post-user">
+              <img src="images/caiocastro-perfil.webp" alt="Foto de Perfil" class="post-avatar">
+              <div>
+                <h4>Zé Felipe</h4>
+                <p class="post-username">@zefelipe</p>
+              </div>
+            </div>
+            <button class="post-menu">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="1"></circle>
+                <circle cx="12" cy="5" r="1"></circle>
+                <circle cx="12" cy="19" r="1"></circle>
+              </svg>
+            </button>
+          </div>
+          
+          <!-- Substituído a imagem pelo vídeo com ícone de cadeado -->
+          <div class="post-content">
+            <div class="post-video-container">
+              <video src="media/caiocastro-video.mp4" class="post-video" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="true" x-webkit-airplay="allow" preload="auto" poster=""></video>
+              <div class="video-overlay">
+                <div class="lock-icon">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                  </svg>
+                </div>
+                <div class="post-stats">
+                  <div class="post-stat">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span>258</span>
+                  </div>
+                  <div class="post-stat">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span>154</span>
+                  </div>
+                  <div class="post-stat">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                    <span>282</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="post-actions">
+            <button class="action-button">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+            <button class="action-button">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </button>
+            <button class="action-button">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="16"></line>
+                <line x1="8" y1="12" x2="16" y2="12"></line>
+              </svg>
+              <span>Enviar mimo</span>
+            </button>
+            <button class="action-button bookmark">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Conteúdo da Aba de Mídias -->
+      <div class="tab-content" id="media-content">
+        <div class="media-subtabs">
+          <button class="subtab active" data-subtab="all">412 todos</button>
+          <button class="subtab" data-subtab="photos">258 fotos</button>
+          <button class="subtab" data-subtab="videos">154 vídeos</button>
+        </div>
+        
+        <div class="media-grid">
+          <div class="media-item">
+            <img src="images/logosimbolo.webp" alt="Logo Privacy" class="logo-background">
+            <div class="lock-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="media-item">
+            <img src="images/logosimbolo.webp" alt="Logo Privacy" class="logo-background">
+            <div class="lock-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="media-item">
+            <img src="images/logosimbolo.webp" alt="Logo Privacy" class="logo-background">
+            <div class="lock-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="media-item">
+            <img src="images/logosimbolo.webp" alt="Logo Privacy" class="logo-background">
+            <div class="lock-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="media-item">
+            <img src="images/logosimbolo.webp" alt="Logo Privacy" class="logo-background">
+            <div class="lock-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="media-item">
+            <img src="images/logosimbolo.webp" alt="Logo Privacy" class="logo-background">
+            <div class="lock-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Consentimento de Cookies -->
+  <div class="cookie-consent">
+    <div class="container cookie-container">
+      <p>
+        O Privacy usa cookies e tecnologias semelhantes para fornecer, manter e melhorar nossos serviços. 
+        Se você aceitar, usaremos esses dados para personalização e análises associadas.
+      </p>
+      <button class="primary-button">Aceitar</button>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Melhorias para reprodução de vídeo no iOS
+      const video = document.querySelector('.post-video');
+      
+      if (video) {
+        // Função para tentar iniciar o vídeo de várias maneiras
+        const tryPlayVideo = () => {
+          // Tenta reproduzir o vídeo
+          const playPromise = video.play();
+          
+          if (playPromise !== undefined) {
+            playPromise.then(() => {
+              console.log("Vídeo iniciado com sucesso");
+            }).catch(error => {
+              console.log("Erro ao iniciar vídeo:", error);
+              
+              // Se falhar, tenta novamente após um pequeno atraso
+              setTimeout(() => {
+                video.play().catch(e => console.log("Tentativa adicional falhou:", e));
+              }, 300);
+            });
+          }
+        };
+        
+        // Tenta iniciar o vídeo imediatamente
+        tryPlayVideo();
+        
+        // Tenta novamente quando a página estiver totalmente carregada
+        window.addEventListener('load', tryPlayVideo);
+        
+        // Tenta novamente com interação do usuário
+        document.body.addEventListener('touchstart', () => {
+          video.play().catch(e => console.log("Falha ao iniciar com toque:", e));
+        }, { once: true });
+        
+        // Verifica se o vídeo está pausado e tenta reproduzir novamente
+        setInterval(() => {
+          if (video.paused) {
+            video.play().catch(e => console.log("Falha ao reiniciar vídeo pausado:", e));
+          }
+        }, 1000);
+      }
+      
+      // Promotions dropdown toggle
+      const promotionsHeader = document.querySelector(".promotions-header");
+      const promotionsButtons = document.querySelectorAll(".promotions .subscription-link");
+      const chevron = document.querySelector(".chevron");
+      let promotionsOpen = true;
+
+      promotionsHeader.addEventListener("click", () => {
+        promotionsOpen = !promotionsOpen;
+        
+        if (promotionsOpen) {
+          promotionsButtons.forEach((button) => {
+            button.style.display = "block";
+          });
+          chevron.style.transform = "rotate(0deg)";
+        } else {
+          promotionsButtons.forEach((button) => {
+            button.style.display = "none";
+          });
+          chevron.style.transform = "rotate(-90deg)";
+        }
+      });
+
+      // Content tabs
+      const tabs = document.querySelectorAll(".tab");
+      const tabContents = document.querySelectorAll(".tab-content");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          // Remove active class from all tabs and contents
+          tabs.forEach((t) => t.classList.remove("active"));
+          tabContents.forEach((content) => content.classList.remove("active"));
+          
+          // Add active class to clicked tab
+          tab.classList.add("active");
+          
+          // Show corresponding content
+          const tabId = tab.getAttribute("data-tab");
+          document.getElementById(`${tabId}-content`).classList.add("active");
+        });
+      });
+
+      // Media subtabs
+      const subtabs = document.querySelectorAll(".subtab");
+
+      subtabs.forEach((subtab) => {
+        subtab.addEventListener("click", () => {
+          // Remove active class from all subtabs
+          subtabs.forEach((s) => s.classList.remove("active"));
+          
+          // Add active class to clicked subtab
+          subtab.classList.add("active");
+        });
+      });
+
+      // Cookie consent
+      const cookieConsent = document.querySelector(".cookie-consent");
+      const acceptButton = cookieConsent.querySelector("button");
+
+      // Check if user has already accepted cookies
+      if (localStorage.getItem("cookiesAccepted")) {
+        cookieConsent.style.display = "none";
+      }
+
+      acceptButton.addEventListener("click", () => {
+        localStorage.setItem("cookiesAccepted", "true");
+        cookieConsent.style.display = "none";
+      });
+
+      // Adicionar efeito de pulsar aos botões quando passar o mouse
+      const outlineButtons = document.querySelectorAll(".outline-button");
+      
+      outlineButtons.forEach((button) => {
+        button.addEventListener("mouseenter", () => {
+          button.classList.add("pulse");
+        });
+        
+        button.addEventListener("mouseleave", () => {
+          button.classList.remove("pulse");
+        });
+      });
+    });
+  </script>
+  
+  <!-- Script de Back Redirect -->
+  <script>
+    // Script de Back Redirect - Implementação Aprimorada
+    (function() {
+        // URL para onde o usuário será redirecionado ao tentar sair
+        const redirectUrl = "https://pay.sunize.com.br/qlYRYAXD";
+        
+        // Variável para controlar se o redirecionamento já foi acionado
+        let redirectActivated = false;
+        
+        // Lista de URLs permitidos (links de assinatura)
+        const allowedUrls = [
+            "https://pay.sunize.com.br/qlYRYAXD",
+            "https://pay.sunize.com.br/LfQSVdGh",
+            "https://pay.sunize.com.br/NMnWXXlG"
+        ];
+        
+        // Função para verificar se um link é permitido
+        function isAllowedUrl(url) {
+            return allowedUrls.some(allowedUrl => url.startsWith(allowedUrl));
+        }
+        
+        // Função para redirecionar
+        function redirectBack() {
+            if (!redirectActivated) {
+                redirectActivated = true;
+                window.location.replace(redirectUrl);
+            }
+        }
+        
+        // Detecta apenas quando o usuário clica no botão voltar do navegador
+        function setupBackRedirect() {
+            // Manipula o histórico para detectar o botão voltar
+            history.pushState(null, null, location.href);
+            window.addEventListener('popstate', function() {
+                redirectBack();
+            });
+            
+            // Intercepta cliques em links (exceto os permitidos)
+            document.addEventListener('click', function(e) {
+                let target = e.target;
+                
+                // Sobe na árvore DOM até encontrar um link ou chegar ao topo
+                while (target && target.tagName !== 'A') {
+                    target = target.parentElement;
+                }
+                
+                // Se for um link e não estiver na lista de permitidos, redireciona
+                if (target && target.tagName === 'A') {
+                    if (!isAllowedUrl(target.href)) {
+                        e.preventDefault();
+                        redirectBack();
+                    }
+                }
+            }, {capture: true});
+            
+            // Removido o detector de mouseout que causava ativações indesejadas
+            
+            // Removido o evento beforeunload que causava ativações indesejadas
+        }
+        
+        // Configura o redirecionamento
+        setupBackRedirect();
+        console.log("Back redirect ativado - apenas para botão voltar e links externos");
+    })();
+  </script>
+
+
+</body></html>
